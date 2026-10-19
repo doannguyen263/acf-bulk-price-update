@@ -1,0 +1,103 @@
+.abpu-wrap .abpu-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 16px 20px 20px;
+	margin: 20px 0;
+	max-width: 960px;
+}
+
+.abpu-wrap .abpu-actions {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.abpu-wrap .abpu-preview {
+	background: #f6f7f7;
+	border-left: 4px solid #2271b1;
+	padding: 10px 14px;
+	margin-top: 12px;
+}
+
+.abpu-wrap .abpu-progress {
+	margin-top: 16px;
+}
+
+.abpu-wrap .abpu-progress-bar {
+	height: 16px;
+	background: #dcdcde;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.abpu-wrap .abpu-progress-bar span {
+	display: block;
+	height: 100%;
+	width: 0;
+	background: #2271b1;
+	transition: width 0.2s ease;
+}
+
+.abpu-wrap .abpu-log {
+	max-height: 160px;
+	overflow: auto;
+	background: #1d2327;
+	color: #f0f0f1;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.abpu-wrap .abpu-history-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.abpu-wrap .abpu-history-table th,
+.abpu-wrap .abpu-history-table td {
+	border-bottom: 1px solid #dcdcde;
+	padding: 8px 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.abpu-wrap .abpu-history-table .abpu-row-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+
+.abpu-wrap .abpu-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 10px;
+	font-size: 12px;
+	background: #dcdcde;
+}
+
+.abpu-wrap .abpu-badge.completed {
+	background: #d1e7dd;
+}
+
+.abpu-wrap .abpu-badge.running {
+	background: #fff3cd;
+}
+
+.abpu-wrap .abpu-badge.rolled_back {
+	background: #e2e3e5;
+}
+
+.abpu-wrap .abpu-badge.failed {
+	background: #f8d7da;
+}
+
+.abpu-wrap .abpu-detail-meta {
+	margin: 0 0 10px;
+	color: #646970;
+}
+
+.abpu-wrap .abpu-pagination {
+	display: flex;
+	gap: 8px;
+	margin-top: 12px;
+}
